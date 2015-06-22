@@ -49,3 +49,6 @@ group :development, :test do
   gem 'spring'
 end
 
+group :assets do
+	gem 'less'
+end

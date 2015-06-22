@@ -1,0 +1,40 @@
+@import '../imports.css.sass'
+@import '../../source/_variables.scss'
+
+nav
+	&.affix
+		top: 0
+		left: 0
+		right: 0
+
+	ul
+		min-height: $navbar-height
+
+		*
+			height: $navbar-height
+
+	li
+		margin: 0 10px
+
+	.navbar-right a
+		display: table-cell
+		vertical-align: middle
+		// height: 100%
+		padding-top: 0
+		padding-bottom: 0
+		position: relative
+		text-transform: uppercase
+
+		&::after
+			content: ''
+			display: block
+			width: 0
+			height: 5px
+			position: absolute
+			bottom: 0
+			background: orange
+
+			@include x-center
+
+		&:hover::after
+			width: 100%

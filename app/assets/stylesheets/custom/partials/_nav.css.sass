@@ -5,11 +5,16 @@
 nav
 	margin-bottom: 0 !important
 	z-index: 9999
+	font-weight: 700
+	letter-spacing: 2px
+
+	@include transition(all 0.75s ease)
 
 	&.affix
 		top: 0
 		left: 0
 		right: 0
+		background: rgba(34, 34, 34, 0.9) !important
 
 	ul
 		min-height: $navbar-height
@@ -20,6 +25,9 @@ nav
 	li
 		margin: 0 10px
 
+		&.active a::after
+			width: 100%
+
 	.navbar-right a
 		display: table-cell
 		vertical-align: middle
@@ -27,7 +35,10 @@ nav
 		padding-top: 0
 		padding-bottom: 0
 		position: relative
+		color: #d6d68f !important
 		text-transform: uppercase
+
+		@include transition(all 0.3s ease)
 
 		&::after
 			content: ''
@@ -36,10 +47,13 @@ nav
 			height: 5px
 			position: absolute
 			bottom: 0
-			background: orange
+			background: #6a7a52
 
 			@include x-center
 			@include transition(all 0.3s ease)
 
-		&:hover::after
-			width: 100%
+		&:hover
+			color: #e7e7e7 !important
+
+			&::after
+				width: 100%

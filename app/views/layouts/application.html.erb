@@ -8,7 +8,7 @@
 
 		<%= stylesheet_link_tag    'application-bootstrap', media: 'all', 'data-turbolinks-track' => true %>
 		<%= stylesheet_link_tag    'application-custom', media: 'all', 'data-turbolinks-track' => true %>
-		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:500,700' rel='stylesheet' type='text/css'>
 
 		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
@@ -20,13 +20,13 @@
 
 	</head>
 	
-	<body>
+	<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
 
 		<header id="slide-1">
 
 	    <div class="bcg"
 	        data-center="background-position: 50% 0px;"
-	        data-top-bottom="background-position: 50% 200px;"
+	        data-top-bottom="background-position: 50% 300px;"
 	        data-anchor-target="#slide-1"
 	    >
 
@@ -62,10 +62,10 @@
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Story</a></li>
-						<li><a href="#">Idk</a></li>
-						<li><a href="#">Buck</a></li>
+						<li><a href="#slide-1">Home</a></li>
+						<li><a href="#matt">Matt</a></li>
+						<li><a href="#eddie">Eddie</a></li>
+						<li><a href="#buck">Buck</a></li>
 						<li><a href="#">Photos</a></li>
 						<li><a href="#">Videos</a></li>
 					</ul>

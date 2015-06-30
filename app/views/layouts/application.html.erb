@@ -8,6 +8,7 @@
 
 		<%= stylesheet_link_tag    'application-bootstrap', media: 'all', 'data-turbolinks-track' => true %>
 		<%= stylesheet_link_tag    'application-custom', media: 'all', 'data-turbolinks-track' => true %>
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
 		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
@@ -48,20 +49,11 @@
 			</div>
 		</nav>
 
-		<header></header>
-		<header></header>
-		<header></header>
-		<header></header>
-		<header></header>
-		<header></header>
-		<header></header>
-		<header></header>
-		<header></header>
-		<header></header>
-		<header></header>
-		<header></header>
-
 		<%= yield %>
+
+		<footer>
+			<p>&copy; 2015 Matt Would Go | <a href="/login">Login</a></p>
+		</footer>
 
 	</body>
 </html>

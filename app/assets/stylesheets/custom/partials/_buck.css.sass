@@ -1,0 +1,32 @@
+#buck-logo
+	display: block
+	margin: 0 auto
+
+#buy
+	a
+		display: inline-block
+		margin: 0 auto
+
+	span
+		display: block
+
+#or
+	position: relative
+	text-align: center
+	text-transform: uppercase
+
+	&::before,
+	&::after
+		content: ''
+		display: block
+		width: 100px
+		height: 2px
+		background: black
+		position: absolute
+		top: calc(50% - 1px)
+
+	&::before
+		right: calc(50% + 20px)
+
+	&::after
+		left: calc(50% + 20px)

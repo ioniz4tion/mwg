@@ -29,6 +29,8 @@ gem 'devise', '~> 3.5.1'
 #cms
 gem 'best_in_place', '~> 3.0.3'
 
+gem 'therubyracer', '~> 0.12.2'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

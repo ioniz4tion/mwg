@@ -20,7 +20,7 @@
 
 	</head>
 	
-	<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
+	<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="50">
 
 		<header id="slide-1">
 
@@ -62,12 +62,12 @@
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#slide-1">Home</a></li>
+						<li id="home"><a href="#slide-1">Home</a></li>
 						<li><a href="#matt">Matt</a></li>
 						<li><a href="#eddie">Eddie</a></li>
-						<li><a href="#buck">Buck</a></li>
-						<li><a href="#">Photos</a></li>
-						<li><a href="#">Videos</a></li>
+						<li><a href="#buck">Support</a></li>
+						<li id="photo-link"><a href="/photos">Photos</a></li>
+						<li id="video-link"><a href="/videos">Videos</a></li>
 					</ul>
 				</div>
 			</div>
@@ -89,6 +89,23 @@
 			        }
 			    });
 			} )( jQuery );
+		</script>
+
+		<script type="text/javascript">
+			$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').animate({
+			          scrollTop: target.offset().top - 50
+			        }, 500);
+			        return false;
+			      }
+			    }
+			  });
+			});
 		</script>
 
 	</body>

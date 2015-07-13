@@ -4,6 +4,8 @@
 
 nav
 	margin-bottom: 0 !important
+	position: absolute
+	top: 0
 	z-index: 9999
 	font-weight: 700
 	letter-spacing: 2px
@@ -26,7 +28,12 @@ nav
 		margin: 0 10px
 
 		&.active a::after
-			width: 100%
+
+			@media (min-width: 768px)
+				width: 100%
+
+			@media (max-width: 767px)
+				height: 100%
 
 	.navbar-right a
 		display: table-cell
@@ -43,17 +50,30 @@ nav
 		&::after
 			content: ''
 			display: block
-			width: 0
-			height: 5px
 			position: absolute
-			bottom: 0
 			background: #6a7a52
 
 			@include x-center
 			@include transition(all 0.3s ease)
 
+			@media (min-width: 768px)
+				width: 0
+				height: 5px
+				bottom: 0
+
+			@media (max-width: 767px)
+				width: 5px
+				height: 0
+				left: 0
+				top: 0
+
 		&:hover
 			color: #e7e7e7 !important
 
 			&::after
-				width: 100%
+
+				@media (min-width: 768px)
+					width: 100%
+
+				@media (max-width: 767px)
+					height: 100%

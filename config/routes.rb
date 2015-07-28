@@ -18,9 +18,10 @@ Rails.application.routes.draw do
 
   get '/videos' => 'application#videos'
 
-  # devise_scope :user do
-    get '/login' => 'application#login' # 'devise/sessions#new'
-  # end
+  devise_scope :user do
+    get '/login' => 'devise/sessions#new'
+    get '/logout' => 'devise/sessions#destroy'
+  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

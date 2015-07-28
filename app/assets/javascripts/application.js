@@ -14,3 +14,17 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require best_in_place
+//= require bootstrap-sprockets
+//= require best_in_place.jquery-ui
+//= require_tree .
+//= require bootstrap-wysihtml5
+//= require bootstrap-wysihtml5/locales
+
+
+$(function(){
+  jQuery(".best_in_place").best_in_place();
+  $.each('.wysihtml5', function(i, elem){
+    $(elem).wysihtml5();
+  });
+});

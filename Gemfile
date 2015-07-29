@@ -30,7 +30,9 @@ gem 'devise', '~> 3.5.1'
 #cms
 gem 'best_in_place', '~> 3.0.3'
 
-gem 'bootstrap-wysihtml5-rails'
+gem "paperclip", "~> 4.3"
+
+gem 'seed_dump'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

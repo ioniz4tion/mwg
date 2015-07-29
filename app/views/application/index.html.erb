@@ -3,14 +3,18 @@
   <div class="col col-md-10">
 
     <div class="circimg">
-      <img src="http://placehold.it/500x500">
+      <%= image_tag @homeImage[0].image %>
     </div>
+
+    <%= cms_upload(@homeImage[0], :image, "Upload New Image") %>
 
     <h1>Matt's Story</h1>
 
 
-    <div class="col col-md-10"><%= bip_rich_text @homeText[0], :text, :textarea %>
-    
+    <div class="col col-md-10">
+      <p>
+        <%= bip @homeText[0], :text, :textarea %>
+      </p>
     </div>
 
   </div>
@@ -22,15 +26,17 @@
   <div class="col col-md-10">
 
     <div class="circimg">
-      <img src="http://placehold.it/500x500">
+      <%= image_tag @homeImage[1].image %>
     </div>
-
+    
+    <%= cms_upload(@homeImage[1], :image, "Upload New Image") %>
+  
     <h1>Eddie's Story</h1>
 
     <div class="col col-md-10">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+        <%= bip @homeText[1], :text, :textarea %>
+      </p>
     </div>
 
   </div>
@@ -41,13 +47,19 @@
 
   <div class="col col-md-10">
 
-    <img src="http://placehold.it/214x140" id="buck-logo">
+    <%= image_tag @homeImage[2].image, id: "buck-logo" %>
+
+    <%= cms_upload(@homeImage[2], :image, "Upload New Image") %>
 
     <h1>Partnership with Buck</h1>
 
     <div class="col col-md-10">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <img src="http://placehold.it/883x176" id="knife">
+      <p>
+        <%= bip @homeText[2], :text, :textarea %>
+      </p>
+      <%= image_tag @homeImage[3].image, id: "knife" %>
+
+      <%= cms_upload(@homeImage[3], :image, "Upload New Image") %>
     </div>
 
     <div class="col col-md-8" id="buy">
@@ -57,8 +69,8 @@
       <span id="or">or</span>
 
       <span>Buy directly from Tim and Linda Leathers</span>
-      <span class="contact">dontworry@about.it</span>
-      <span class="contact">XXX XXX XXXX</span>
+      <span class="contact"><%= bip @homeText[3], :text %></span>
+      <span class="contact"><%= bip @homeText[4], :text %></span>
 
       <span id="or">or</span>
 

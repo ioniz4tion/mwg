@@ -3,19 +3,7 @@ module ApplicationHelper
 	def bip(model, column, type = "input")
 		best_in_place_if user_signed_in?, model, 
 				column, path: model.class.table_name.to_s + '/' + model.id.to_s,
-				type: type
-	end
-
-	def bip_rich_text(model, column, type = "input")
-		best_in_place_if user_signed_in?, model, 
-				column, path: model.class.table_name.to_s + '/' + model.id.to_s,
-				type: type,
-				nil: "Click here to add content!",
-				inner_class: "wysihtml5", 
-        sanitize: false,
-        ok_button: 'Save',
-        cancel_button: 'Cancel',
-        display_with: lambda { |v| v.html_safe }
+				type: type, :display_with => lambda { |v| v.gsub(/\n/, '<br/>').html_safe }
 	end
 
 	def bip_url(model, column, url, show = true, type = "input")
@@ -44,15 +32,17 @@ module ApplicationHelper
     end
 	end
 
-	def cms_upload(model, type, text)
+	def cms_upload(model, type, text, prompt = "")
 		if user_signed_in?
-			capture do
-	      form_for model, url: model.class.table_name.to_s + '/' + model.id.to_s, 
-	      		:html => { :multipart => true } do |form|
-	        # concat form.label text
-	        concat form.file_field type
-	        concat form.submit "Upload Image"
-	      end
+			content_tag :div, class: "cms_upload" do
+				capture do
+		      form_for model, url: model.class.table_name.to_s + '/' + model.id.to_s, 
+		      		:html => { class: "upload_form", :multipart => true } do |form|
+		        # concat form.label text
+		        concat form.file_field type, class: "choose_image"
+		        concat form.submit "Upload Image", class: "upload_image"
+		      end
+		    end
 	    end
     end
 	end
@@ -60,7 +50,7 @@ module ApplicationHelper
 	def cms_upload_url(model, type, text, url)
 		if user_signed_in?
 			capture do
-	      form_for model, url: url + '/' + model.id.to_s, 
+	      form_for model, url: url, 
 	      		:html => { :multipart => true } do |form|
 	        concat form.label text
 	        concat form.file_field type

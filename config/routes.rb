@@ -23,6 +23,14 @@ Rails.application.routes.draw do
     get '/logout' => 'devise/sessions#destroy'
   end
 
+
+  put '/home_texts/:id' => 'application#home_texts'
+
+  patch '/home_images/:id' => 'application#home_images'
+  post '/photos/add' => 'application#photos_add'
+  delete '/photos/delete/:id' => 'application#photos_delete'
+ 
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

@@ -27,3 +27,7 @@ module Mwg
     config.active_record.raise_in_transactional_callbacks = true
   end
 end
+
+class Application < Rails::Application
+  config.web_console.whitelisted_ips = '192.168.1.112', '192.168.1.1', '192.168.1.107'
+end

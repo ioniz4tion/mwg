@@ -16,13 +16,17 @@ header
 	// opacity: 0
 
 .hsContent
-	max-width: 450px
+	// max-width: 450px
+	width: 100%
 	margin: -150px auto 0 auto
 	display: table-cell
 	vertical-align: middle
 	color: #ebebeb
 	padding: 0 8%
 	text-align: center
+
+	*:not(img)
+		width: 100%
 
 .bcg
 	background-position: center center
@@ -31,3 +35,25 @@ header
 	background-size: cover
 	height: 100%
 	width: 100%
+
+#header-logo
+	position: relative
+
+	*:not(span)
+		position: absolute
+
+		@include xy-center
+
+	img
+		max-width: 100%
+
+	h2
+		color: #d6d68f
+		text-transform: uppercase
+		font-weight: 800
+		font-size: 90px
+		letter-spacing: 3px
+		text-shadow: 0 0 25px #000
+
+	span
+		font-size: 50%

@@ -69,10 +69,10 @@
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li id="home"><a href="#slide-1">Home</a></li>
-						<li><a href="#matt">Matt</a></li>
-						<li><a href="#eddie">Eddie</a></li>
-						<li><a href="#buck">Support</a></li>
+						<li id="home"><a>Home</a></li>
+						<li id="matt-link"><a>Matt</a></li>
+						<li id="eddie-link"><a>Eddie</a></li>
+						<li id="buck-link"><a>Support</a></li>
 						<li id="photo-link"><a href="/photos">Photos</a></li>
 						<li id="video-link"><a href="/videos">Videos</a></li>
 					</ul>
@@ -112,6 +112,31 @@
 			      }
 			    }
 			  });
+			});
+		</script>
+
+		<script>
+			// gets end of URL and changes nav hrefs accordingly
+			$(document).ready(function() {
+				var setUrl = function() {
+					var fullUrl = window.location.href;
+					var endUrl = fullUrl.substr(fullUrl.lastIndexOf("/")+1);
+					// console.log(endUrl);
+
+					var ids = ['#home', '#matt-link', '#eddie-link', '#buck-link'];
+					var hrefs = ['#slide-1', '#matt', '#eddie', '#buck'];
+
+					if ( (endUrl == "photos") || (endUrl == "videos") ) {
+						for (i = 0; i < ids.length; i++) {
+							$(ids[i] + ' a').attr('href', '/home' + hrefs[i]);
+						};
+					} else {
+						for (j = 0; j < ids.length; j++) {
+							$(ids[j] + ' a').attr('href', hrefs[j]);
+						};
+					};
+				};
+				setUrl();
 			});
 		</script>
 

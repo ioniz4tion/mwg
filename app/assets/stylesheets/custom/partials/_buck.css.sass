@@ -16,11 +16,14 @@
 #buck-logo
 	display: block
 	margin: 0 auto
+	max-width: 214px
 
 #buy
 	text-align: center
 
-	a
+	a,
+	input[type=submit],
+	button
 		display: inline-block
 		margin-bottom: 30px
 		padding: 10px
@@ -28,6 +31,8 @@
 		color: #d6d68f
 		text-decoration: none
 		z-index: 9998
+		background: transparent
+		border: none
 
 		@include transition(all 0.3s ease)
 

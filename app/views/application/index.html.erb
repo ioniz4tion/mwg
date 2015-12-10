@@ -1,3 +1,8 @@
+<%
+meta title: "Home - Matt Would Go",
+     description: "This is the home page."
+%>
+
 <section id="matt">
 
   <div class="col col-md-10">
@@ -74,7 +79,16 @@
 
       <span id="or">or</span>
 
-      <a href="" target="_blank">Donate to the foundation</a>
+      <!-- <a href="" target="_blank">Donate to the foundation</a> -->
+
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="27M2VV4GRXSK4">
+        <button type="submit" name="submit">Donate to the foundation</button>
+        <!-- <input type="button" name="submit" value="Donate to the foundation"> -->
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+
     </div>
 
   </div>

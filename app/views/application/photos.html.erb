@@ -4,16 +4,20 @@
 
 		<ul class="row">
 
-			<% @images.each do |image| %>
+			<% if @images != nil %>
 
-				<li class="col-lg-3 col-md-3 col-sm-4 col-xs-6 thumb">
-					<div class="thumbnail">
-						<%= image_tag image.image(:thumb), large_image: image.image(:large) %>
-						<%= cms_delete( image, "photos/delete") %>
-					</div>
-				</li>
+				<% @images.each do |image| %>
 
-			<% end %>		     
+					<li class="col-lg-3 col-md-3 col-sm-4 col-xs-6 thumb">
+						<div class="thumbnail">
+							<%= image_tag image.image, large_image: image.image %>
+							<%= cms_delete( image, "photos/delete") %>
+						</div>
+					</li>
+
+				<% end %>	
+
+			<% end %>
 
 		</ul>
 
@@ -34,8 +38,8 @@
 
 <script>
 	$(document).ready(function() {
-		// $('#home').removeClass('active');
-		// $('#photo-link').addClass('active');
+		$('#home').removeClass('active');
+		$('#photo-link').addClass('active');
 	})
 </script>
 

@@ -1,4 +1,4 @@
-User.create!({:email => "test@gmail.com", :password => "testtest", :password_confirmation => "testtest" })
+User.create!({:email => "lindal95247@gmail.com", :password => "Mo##y1080!!", :password_confirmation => "Mo##y1080!!" })
 HomeImage.create!([
   {alt: nil, image_file_name: nil, image_content_type: nil, image_file_size: nil, image_updated_at: nil},
   {alt: nil, image_file_name: nil, image_content_type: nil, image_file_size: nil, image_updated_at: nil},

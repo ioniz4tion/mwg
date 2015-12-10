@@ -42,6 +42,8 @@ gem 'seed_dump'
 
 gem 'web-console', '~> 2.0'
 
+gem 'metamagic'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

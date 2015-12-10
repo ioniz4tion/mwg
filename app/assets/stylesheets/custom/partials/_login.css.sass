@@ -1,3 +1,7 @@
+@import '../imports.css.sass'
+@import '../../source/_mixins.scss'
+@import '../eleganticons.css.scss'
+
 #login
 	background: #3d3629
 	color: #d6d68f
@@ -15,6 +19,61 @@
 		&:last-child
 			margin-bottom: 0
 
-	p
+			.col-xs-4
+				padding-top: 6px
+
+	p,
+	label
 		text-transform: uppercase
 		line-height: 34px
+		font-weight: normal
+
+	input[type=checkbox]
+		display: none
+
+		&:checked + label span::before
+			content: "\57"
+
+		+ label span
+			margin-right: 10px
+
+			&::before
+				content: "\56"
+
+	button
+		display: inline-block
+		margin-bottom: 30px
+		padding: 10px
+		position: relative
+		float: right
+		color: #d6d68f
+		text-decoration: none
+		text-transform: uppercase
+		z-index: 9998
+		background: transparent
+		border: none
+
+		@include transition(all 0.3s ease)
+
+		&::after
+			content: ''
+			display: block
+			width: 0
+			height: 100%
+			background: #d6d68f
+			opacity: 0
+			z-index: -1
+
+			@include xy-center
+			@include transition(all 0.3s ease)
+
+		&:hover
+			color: #3d3629
+
+			&::after
+				width: 100%
+				height: 100%
+				opacity: 1
+
+		&:last-child
+			margin-bottom: 0

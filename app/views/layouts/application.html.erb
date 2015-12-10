@@ -4,7 +4,7 @@
 
 	<head>
 
-		<title>Mwg</title>
+		<%= metamagic %>
 
 		<%= stylesheet_link_tag    'application-bootstrap', media: 'all', 'data-turbolinks-track' => true %>
 		<%= stylesheet_link_tag    'application-custom', media: 'all', 'data-turbolinks-track' => true %>
@@ -24,6 +24,8 @@
 	</head>
 	
 	<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="50">
+
+	<div id="wrapper">
 
 		<header id="slide-1">
 
@@ -117,28 +119,30 @@
 
 		<script>
 			// gets end of URL and changes nav hrefs accordingly
-			$(document).ready(function() {
-				var setUrl = function() {
-					var fullUrl = window.location.href;
-					var endUrl = fullUrl.substr(fullUrl.lastIndexOf("/")+1);
-					// console.log(endUrl);
+			// $(document).ready(function() {
+			// 	var setUrl = function() {
+			// 		var fullUrl = window.location.href;
+			// 		var endUrl = fullUrl.substr(fullUrl.lastIndexOf("/")+1).substr(0,4);
+			// 		console.log(endUrl);
 
-					var ids = ['#home', '#matt-link', '#eddie-link', '#buck-link'];
-					var hrefs = ['#slide-1', '#matt', '#eddie', '#buck'];
+			// 		var ids = ['#home', '#matt-link', '#eddie-link', '#buck-link'];
+			// 		var hrefs = ['#slide-1', '#matt', '#eddie', '#buck'];
 
-					if ( (endUrl == "photos") || (endUrl == "videos") ) {
-						for (i = 0; i < ids.length; i++) {
-							$(ids[i] + ' a').attr('href', '/home' + hrefs[i]);
-						};
-					} else {
-						for (j = 0; j < ids.length; j++) {
-							$(ids[j] + ' a').attr('href', hrefs[j]);
-						};
-					};
-				};
-				setUrl();
-			});
+			// 		if ( !(endUrl == "home") ) {
+			// 			for (i = 0; i < ids.length; i++) {
+			// 				$(ids[i] + ' a').attr('href', '/home' + hrefs[i]);
+			// 			};
+			// 		} else {
+			// 			for (j = 0; j < ids.length; j++) {
+			// 				$(ids[j] + ' a').attr('href', hrefs[j]);
+			// 			};
+			// 		};
+			// 	};
+			// 	setUrl();
+			// });
 		</script>
+
+	</div>
 
 	</body>
 </html>

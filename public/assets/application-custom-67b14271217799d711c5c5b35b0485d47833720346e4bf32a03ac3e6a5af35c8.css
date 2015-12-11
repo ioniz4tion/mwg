@@ -1,0 +1,4195 @@
+/**
+ *
+ *
+ *
+ *
+ */
+/* line 1, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.eleganticon {
+  font-family: 'ElegantIcons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 12, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_up:before {
+  content: "\21";
+}
+
+/* line 13, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_down:before {
+  content: "\22";
+}
+
+/* line 14, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left:before {
+  content: "\23";
+}
+
+/* line 15, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_right:before {
+  content: "\24";
+}
+
+/* line 16, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left-up:before {
+  content: "\25";
+}
+
+/* line 17, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_right-up:before {
+  content: "\26";
+}
+
+/* line 18, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_right-down:before {
+  content: "\27";
+}
+
+/* line 19, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left-down:before {
+  content: "\28";
+}
+
+/* line 20, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow-up-down:before {
+  content: "\29";
+}
+
+/* line 21, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_up-down_alt:before {
+  content: "\2a";
+}
+
+/* line 22, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left-right_alt:before {
+  content: "\2b";
+}
+
+/* line 23, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left-right:before {
+  content: "\2c";
+}
+
+/* line 24, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_expand_alt2:before {
+  content: "\2d";
+}
+
+/* line 25, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_expand_alt:before {
+  content: "\2e";
+}
+
+/* line 26, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_condense:before {
+  content: "\2f";
+}
+
+/* line 27, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_expand:before {
+  content: "\30";
+}
+
+/* line 28, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_move:before {
+  content: "\31";
+}
+
+/* line 29, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-up:before {
+  content: "\32";
+}
+
+/* line 30, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-down:before {
+  content: "\33";
+}
+
+/* line 31, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-left:before {
+  content: "\34";
+}
+
+/* line 32, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-right:before {
+  content: "\35";
+}
+
+/* line 33, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2up:before {
+  content: "\36";
+}
+
+/* line 34, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2down:before {
+  content: "\37";
+}
+
+/* line 35, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2left:before {
+  content: "\38";
+}
+
+/* line 36, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2right:before {
+  content: "\39";
+}
+
+/* line 37, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-up_alt2:before {
+  content: "\3a";
+}
+
+/* line 38, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-down_alt2:before {
+  content: "\3b";
+}
+
+/* line 39, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-left_alt2:before {
+  content: "\3c";
+}
+
+/* line 40, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-right_alt2:before {
+  content: "\3d";
+}
+
+/* line 41, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2up_alt2:before {
+  content: "\3e";
+}
+
+/* line 42, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2down_alt2:before {
+  content: "\3f";
+}
+
+/* line 43, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2left_alt2:before {
+  content: "\40";
+}
+
+/* line 44, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2right_alt2:before {
+  content: "\41";
+}
+
+/* line 45, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-up:before {
+  content: "\42";
+}
+
+/* line 46, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-down:before {
+  content: "\43";
+}
+
+/* line 47, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-left:before {
+  content: "\44";
+}
+
+/* line 48, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-right:before {
+  content: "\45";
+}
+
+/* line 49, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-up_alt2:before {
+  content: "\46";
+}
+
+/* line 50, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-down_alt2:before {
+  content: "\47";
+}
+
+/* line 51, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-left_alt2:before {
+  content: "\48";
+}
+
+/* line 52, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-right_alt2:before {
+  content: "\49";
+}
+
+/* line 53, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_back:before {
+  content: "\4a";
+}
+
+/* line 54, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_minus-06:before {
+  content: "\4b";
+}
+
+/* line 55, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_plus:before {
+  content: "\4c";
+}
+
+/* line 56, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_close:before {
+  content: "\4d";
+}
+
+/* line 57, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_check:before {
+  content: "\4e";
+}
+
+/* line 58, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_minus_alt2:before {
+  content: "\4f";
+}
+
+/* line 59, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_plus_alt2:before {
+  content: "\50";
+}
+
+/* line 60, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_close_alt2:before {
+  content: "\51";
+}
+
+/* line 61, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_check_alt2:before {
+  content: "\52";
+}
+
+/* line 62, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_zoom-out_alt:before {
+  content: "\53";
+}
+
+/* line 63, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_zoom-in_alt:before {
+  content: "\54";
+}
+
+/* line 64, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_search:before {
+  content: "\55";
+}
+
+/* line 65, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_box-empty:before {
+  content: "\56";
+}
+
+/* line 66, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_box-selected:before {
+  content: "\57";
+}
+
+/* line 67, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_minus-box:before {
+  content: "\58";
+}
+
+/* line 68, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_plus-box:before {
+  content: "\59";
+}
+
+/* line 69, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_box-checked:before {
+  content: "\5a";
+}
+
+/* line 70, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_circle-empty:before {
+  content: "\5b";
+}
+
+/* line 71, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_circle-slelected:before {
+  content: "\5c";
+}
+
+/* line 72, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_stop_alt2:before {
+  content: "\5d";
+}
+
+/* line 73, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_stop:before {
+  content: "\5e";
+}
+
+/* line 74, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pause_alt2:before {
+  content: "\5f";
+}
+
+/* line 75, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pause:before {
+  content: "\60";
+}
+
+/* line 76, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_menu:before {
+  content: "\61";
+}
+
+/* line 77, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_menu-square_alt2:before {
+  content: "\62";
+}
+
+/* line 78, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_menu-circle_alt2:before {
+  content: "\63";
+}
+
+/* line 79, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_ul:before {
+  content: "\64";
+}
+
+/* line 80, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_ol:before {
+  content: "\65";
+}
+
+/* line 81, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_adjust-horiz:before {
+  content: "\66";
+}
+
+/* line 82, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_adjust-vert:before {
+  content: "\67";
+}
+
+/* line 83, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_document_alt:before {
+  content: "\68";
+}
+
+/* line 84, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_documents_alt:before {
+  content: "\69";
+}
+
+/* line 85, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pencil:before {
+  content: "\6a";
+}
+
+/* line 86, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pencil-edit_alt:before {
+  content: "\6b";
+}
+
+/* line 87, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pencil-edit:before {
+  content: "\6c";
+}
+
+/* line 88, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder-alt:before {
+  content: "\6d";
+}
+
+/* line 89, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder-open_alt:before {
+  content: "\6e";
+}
+
+/* line 90, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder-add_alt:before {
+  content: "\6f";
+}
+
+/* line 91, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_info_alt:before {
+  content: "\70";
+}
+
+/* line 92, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_error-oct_alt:before {
+  content: "\71";
+}
+
+/* line 93, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_error-circle_alt:before {
+  content: "\72";
+}
+
+/* line 94, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_error-triangle_alt:before {
+  content: "\73";
+}
+
+/* line 95, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_question_alt2:before {
+  content: "\74";
+}
+
+/* line 96, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_question:before {
+  content: "\75";
+}
+
+/* line 97, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_comment_alt:before {
+  content: "\76";
+}
+
+/* line 98, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_chat_alt:before {
+  content: "\77";
+}
+
+/* line 99, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_vol-mute_alt:before {
+  content: "\78";
+}
+
+/* line 100, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_volume-low_alt:before {
+  content: "\79";
+}
+
+/* line 101, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_volume-high_alt:before {
+  content: "\7a";
+}
+
+/* line 102, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_quotations:before {
+  content: "\7b";
+}
+
+/* line 103, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_quotations_alt2:before {
+  content: "\7c";
+}
+
+/* line 104, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_clock_alt:before {
+  content: "\7d";
+}
+
+/* line 105, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_lock_alt:before {
+  content: "\7e";
+}
+
+/* line 106, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_lock-open_alt:before {
+  content: "\e000";
+}
+
+/* line 107, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_key_alt:before {
+  content: "\e001";
+}
+
+/* line 108, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cloud_alt:before {
+  content: "\e002";
+}
+
+/* line 109, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cloud-upload_alt:before {
+  content: "\e003";
+}
+
+/* line 110, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cloud-download_alt:before {
+  content: "\e004";
+}
+
+/* line 111, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_image:before {
+  content: "\e005";
+}
+
+/* line 112, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_images:before {
+  content: "\e006";
+}
+
+/* line 113, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_lightbulb_alt:before {
+  content: "\e007";
+}
+
+/* line 114, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_gift_alt:before {
+  content: "\e008";
+}
+
+/* line 115, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_house_alt:before {
+  content: "\e009";
+}
+
+/* line 116, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_genius:before {
+  content: "\e00a";
+}
+
+/* line 117, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_mobile:before {
+  content: "\e00b";
+}
+
+/* line 118, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_tablet:before {
+  content: "\e00c";
+}
+
+/* line 119, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_laptop:before {
+  content: "\e00d";
+}
+
+/* line 120, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_desktop:before {
+  content: "\e00e";
+}
+
+/* line 121, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_camera_alt:before {
+  content: "\e00f";
+}
+
+/* line 122, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_mail_alt:before {
+  content: "\e010";
+}
+
+/* line 123, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cone_alt:before {
+  content: "\e011";
+}
+
+/* line 124, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_ribbon_alt:before {
+  content: "\e012";
+}
+
+/* line 125, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_bag_alt:before {
+  content: "\e013";
+}
+
+/* line 126, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_creditcard:before {
+  content: "\e014";
+}
+
+/* line 127, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cart_alt:before {
+  content: "\e015";
+}
+
+/* line 128, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_paperclip:before {
+  content: "\e016";
+}
+
+/* line 129, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_tag_alt:before {
+  content: "\e017";
+}
+
+/* line 130, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_tags_alt:before {
+  content: "\e018";
+}
+
+/* line 131, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_trash_alt:before {
+  content: "\e019";
+}
+
+/* line 132, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cursor_alt:before {
+  content: "\e01a";
+}
+
+/* line 133, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_mic_alt:before {
+  content: "\e01b";
+}
+
+/* line 134, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_compass_alt:before {
+  content: "\e01c";
+}
+
+/* line 135, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pin_alt:before {
+  content: "\e01d";
+}
+
+/* line 136, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pushpin_alt:before {
+  content: "\e01e";
+}
+
+/* line 137, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_map_alt:before {
+  content: "\e01f";
+}
+
+/* line 138, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_drawer_alt:before {
+  content: "\e020";
+}
+
+/* line 139, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_toolbox_alt:before {
+  content: "\e021";
+}
+
+/* line 140, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_book_alt:before {
+  content: "\e022";
+}
+
+/* line 141, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_calendar:before {
+  content: "\e023";
+}
+
+/* line 142, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_film:before {
+  content: "\e024";
+}
+
+/* line 143, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_table:before {
+  content: "\e025";
+}
+
+/* line 144, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_contacts_alt:before {
+  content: "\e026";
+}
+
+/* line 145, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_headphones:before {
+  content: "\e027";
+}
+
+/* line 146, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_lifesaver:before {
+  content: "\e028";
+}
+
+/* line 147, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_piechart:before {
+  content: "\e029";
+}
+
+/* line 148, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_refresh:before {
+  content: "\e02a";
+}
+
+/* line 149, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_link_alt:before {
+  content: "\e02b";
+}
+
+/* line 150, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_link:before {
+  content: "\e02c";
+}
+
+/* line 151, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_loading:before {
+  content: "\e02d";
+}
+
+/* line 152, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_blocked:before {
+  content: "\e02e";
+}
+
+/* line 153, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_archive_alt:before {
+  content: "\e02f";
+}
+
+/* line 154, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_heart_alt:before {
+  content: "\e030";
+}
+
+/* line 155, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_star_alt:before {
+  content: "\e031";
+}
+
+/* line 156, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_star-half_alt:before {
+  content: "\e032";
+}
+
+/* line 157, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_star:before {
+  content: "\e033";
+}
+
+/* line 158, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_star-half:before {
+  content: "\e034";
+}
+
+/* line 159, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_tools:before {
+  content: "\e035";
+}
+
+/* line 160, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_tool:before {
+  content: "\e036";
+}
+
+/* line 161, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cog:before {
+  content: "\e037";
+}
+
+/* line 162, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cogs:before {
+  content: "\e038";
+}
+
+/* line 163, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_up_alt:before {
+  content: "\e039";
+}
+
+/* line 164, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_down_alt:before {
+  content: "\e03a";
+}
+
+/* line 165, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left_alt:before {
+  content: "\e03b";
+}
+
+/* line 166, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_right_alt:before {
+  content: "\e03c";
+}
+
+/* line 167, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left-up_alt:before {
+  content: "\e03d";
+}
+
+/* line 168, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_right-up_alt:before {
+  content: "\e03e";
+}
+
+/* line 169, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_right-down_alt:before {
+  content: "\e03f";
+}
+
+/* line 170, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left-down_alt:before {
+  content: "\e040";
+}
+
+/* line 171, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_condense_alt:before {
+  content: "\e041";
+}
+
+/* line 172, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_expand_alt3:before {
+  content: "\e042";
+}
+
+/* line 173, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot_up_alt:before {
+  content: "\e043";
+}
+
+/* line 174, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-down_alt:before {
+  content: "\e044";
+}
+
+/* line 175, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-left_alt:before {
+  content: "\e045";
+}
+
+/* line 176, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-right_alt:before {
+  content: "\e046";
+}
+
+/* line 177, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2up_alt:before {
+  content: "\e047";
+}
+
+/* line 178, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2dwnn_alt:before {
+  content: "\e048";
+}
+
+/* line 179, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2left_alt:before {
+  content: "\e049";
+}
+
+/* line 180, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2right_alt:before {
+  content: "\e04a";
+}
+
+/* line 181, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-up_alt:before {
+  content: "\e04b";
+}
+
+/* line 182, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-down_alt:before {
+  content: "\e04c";
+}
+
+/* line 183, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-left_alt:before {
+  content: "\e04d";
+}
+
+/* line 184, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-right_alt:before {
+  content: "\e04e";
+}
+
+/* line 185, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_minus_alt:before {
+  content: "\e04f";
+}
+
+/* line 186, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_plus_alt:before {
+  content: "\e050";
+}
+
+/* line 187, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_close_alt:before {
+  content: "\e051";
+}
+
+/* line 188, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_check_alt:before {
+  content: "\e052";
+}
+
+/* line 189, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_zoom-out:before {
+  content: "\e053";
+}
+
+/* line 190, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_zoom-in:before {
+  content: "\e054";
+}
+
+/* line 191, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_stop_alt:before {
+  content: "\e055";
+}
+
+/* line 192, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_menu-square_alt:before {
+  content: "\e056";
+}
+
+/* line 193, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_menu-circle_alt:before {
+  content: "\e057";
+}
+
+/* line 194, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_document:before {
+  content: "\e058";
+}
+
+/* line 195, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_documents:before {
+  content: "\e059";
+}
+
+/* line 196, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pencil_alt:before {
+  content: "\e05a";
+}
+
+/* line 197, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder:before {
+  content: "\e05b";
+}
+
+/* line 198, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder-open:before {
+  content: "\e05c";
+}
+
+/* line 199, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder-add:before {
+  content: "\e05d";
+}
+
+/* line 200, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder_upload:before {
+  content: "\e05e";
+}
+
+/* line 201, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder_download:before {
+  content: "\e05f";
+}
+
+/* line 202, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_info:before {
+  content: "\e060";
+}
+
+/* line 203, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_error-circle:before {
+  content: "\e061";
+}
+
+/* line 204, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_error-oct:before {
+  content: "\e062";
+}
+
+/* line 205, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_error-triangle:before {
+  content: "\e063";
+}
+
+/* line 206, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_question_alt:before {
+  content: "\e064";
+}
+
+/* line 207, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_comment:before {
+  content: "\e065";
+}
+
+/* line 208, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_chat:before {
+  content: "\e066";
+}
+
+/* line 209, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_vol-mute:before {
+  content: "\e067";
+}
+
+/* line 210, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_volume-low:before {
+  content: "\e068";
+}
+
+/* line 211, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_volume-high:before {
+  content: "\e069";
+}
+
+/* line 212, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_quotations_alt:before {
+  content: "\e06a";
+}
+
+/* line 213, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_clock:before {
+  content: "\e06b";
+}
+
+/* line 214, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_lock:before {
+  content: "\e06c";
+}
+
+/* line 215, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_lock-open:before {
+  content: "\e06d";
+}
+
+/* line 216, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_key:before {
+  content: "\e06e";
+}
+
+/* line 217, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cloud:before {
+  content: "\e06f";
+}
+
+/* line 218, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cloud-upload:before {
+  content: "\e070";
+}
+
+/* line 219, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cloud-download:before {
+  content: "\e071";
+}
+
+/* line 220, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_lightbulb:before {
+  content: "\e072";
+}
+
+/* line 221, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_gift:before {
+  content: "\e073";
+}
+
+/* line 222, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_house:before {
+  content: "\e074";
+}
+
+/* line 223, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_camera:before {
+  content: "\e075";
+}
+
+/* line 224, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_mail:before {
+  content: "\e076";
+}
+
+/* line 225, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cone:before {
+  content: "\e077";
+}
+
+/* line 226, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_ribbon:before {
+  content: "\e078";
+}
+
+/* line 227, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_bag:before {
+  content: "\e079";
+}
+
+/* line 228, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cart:before {
+  content: "\e07a";
+}
+
+/* line 229, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_tag:before {
+  content: "\e07b";
+}
+
+/* line 230, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_tags:before {
+  content: "\e07c";
+}
+
+/* line 231, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_trash:before {
+  content: "\e07d";
+}
+
+/* line 232, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cursor:before {
+  content: "\e07e";
+}
+
+/* line 233, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_mic:before {
+  content: "\e07f";
+}
+
+/* line 234, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_compass:before {
+  content: "\e080";
+}
+
+/* line 235, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pin:before {
+  content: "\e081";
+}
+
+/* line 236, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pushpin:before {
+  content: "\e082";
+}
+
+/* line 237, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_map:before {
+  content: "\e083";
+}
+
+/* line 238, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_drawer:before {
+  content: "\e084";
+}
+
+/* line 239, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_toolbox:before {
+  content: "\e085";
+}
+
+/* line 240, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_book:before {
+  content: "\e086";
+}
+
+/* line 241, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_contacts:before {
+  content: "\e087";
+}
+
+/* line 242, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_archive:before {
+  content: "\e088";
+}
+
+/* line 243, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_heart:before {
+  content: "\e089";
+}
+
+/* line 244, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_profile:before {
+  content: "\e08a";
+}
+
+/* line 245, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_group:before {
+  content: "\e08b";
+}
+
+/* line 246, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_grid-2x2:before {
+  content: "\e08c";
+}
+
+/* line 247, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_grid-3x3:before {
+  content: "\e08d";
+}
+
+/* line 248, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_music:before {
+  content: "\e08e";
+}
+
+/* line 249, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pause_alt:before {
+  content: "\e08f";
+}
+
+/* line 250, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_phone:before {
+  content: "\e090";
+}
+
+/* line 251, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_upload:before {
+  content: "\e091";
+}
+
+/* line 252, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_download:before {
+  content: "\e092";
+}
+
+/* line 253, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_facebook:before {
+  content: "\e093";
+}
+
+/* line 254, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_twitter:before {
+  content: "\e094";
+}
+
+/* line 255, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_pinterest:before {
+  content: "\e095";
+}
+
+/* line 256, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_googleplus:before {
+  content: "\e096";
+}
+
+/* line 257, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_tumblr:before {
+  content: "\e097";
+}
+
+/* line 258, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_tumbleupon:before {
+  content: "\e098";
+}
+
+/* line 259, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_wordpress:before {
+  content: "\e099";
+}
+
+/* line 260, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_instagram:before {
+  content: "\e09a";
+}
+
+/* line 261, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_dribbble:before {
+  content: "\e09b";
+}
+
+/* line 262, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_vimeo:before {
+  content: "\e09c";
+}
+
+/* line 263, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_linkedin:before {
+  content: "\e09d";
+}
+
+/* line 264, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_rss:before {
+  content: "\e09e";
+}
+
+/* line 265, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_deviantart:before {
+  content: "\e09f";
+}
+
+/* line 266, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_share:before {
+  content: "\e0a0";
+}
+
+/* line 267, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_myspace:before {
+  content: "\e0a1";
+}
+
+/* line 268, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_skype:before {
+  content: "\e0a2";
+}
+
+/* line 269, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_youtube:before {
+  content: "\e0a3";
+}
+
+/* line 270, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_picassa:before {
+  content: "\e0a4";
+}
+
+/* line 271, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_googledrive:before {
+  content: "\e0a5";
+}
+
+/* line 272, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_flickr:before {
+  content: "\e0a6";
+}
+
+/* line 273, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_blogger:before {
+  content: "\e0a7";
+}
+
+/* line 274, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_spotify:before {
+  content: "\e0a8";
+}
+
+/* line 275, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_delicious:before {
+  content: "\e0a9";
+}
+
+/* line 276, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_facebook_circle:before {
+  content: "\e0aa";
+}
+
+/* line 277, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_twitter_circle:before {
+  content: "\e0ab";
+}
+
+/* line 278, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_pinterest_circle:before {
+  content: "\e0ac";
+}
+
+/* line 279, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_googleplus_circle:before {
+  content: "\e0ad";
+}
+
+/* line 280, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_tumblr_circle:before {
+  content: "\e0ae";
+}
+
+/* line 281, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_stumbleupon_circle:before {
+  content: "\e0af";
+}
+
+/* line 282, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_wordpress_circle:before {
+  content: "\e0b0";
+}
+
+/* line 283, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_instagram_circle:before {
+  content: "\e0b1";
+}
+
+/* line 284, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_dribbble_circle:before {
+  content: "\e0b2";
+}
+
+/* line 285, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_vimeo_circle:before {
+  content: "\e0b3";
+}
+
+/* line 286, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_linkedin_circle:before {
+  content: "\e0b4";
+}
+
+/* line 287, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_rss_circle:before {
+  content: "\e0b5";
+}
+
+/* line 288, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_deviantart_circle:before {
+  content: "\e0b6";
+}
+
+/* line 289, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_share_circle:before {
+  content: "\e0b7";
+}
+
+/* line 290, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_myspace_circle:before {
+  content: "\e0b8";
+}
+
+/* line 291, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_skype_circle:before {
+  content: "\e0b9";
+}
+
+/* line 292, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_youtube_circle:before {
+  content: "\e0ba";
+}
+
+/* line 293, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_picassa_circle:before {
+  content: "\e0bb";
+}
+
+/* line 294, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_googledrive_alt2:before {
+  content: "\e0bc";
+}
+
+/* line 295, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_flickr_circle:before {
+  content: "\e0bd";
+}
+
+/* line 296, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_blogger_circle:before {
+  content: "\e0be";
+}
+
+/* line 297, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_spotify_circle:before {
+  content: "\e0bf";
+}
+
+/* line 298, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_delicious_circle:before {
+  content: "\e0c0";
+}
+
+/* line 299, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_facebook_square:before {
+  content: "\e0c1";
+}
+
+/* line 300, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_twitter_square:before {
+  content: "\e0c2";
+}
+
+/* line 301, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_pinterest_square:before {
+  content: "\e0c3";
+}
+
+/* line 302, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_googleplus_square:before {
+  content: "\e0c4";
+}
+
+/* line 303, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_tumblr_square:before {
+  content: "\e0c5";
+}
+
+/* line 304, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_stumbleupon_square:before {
+  content: "\e0c6";
+}
+
+/* line 305, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_wordpress_square:before {
+  content: "\e0c7";
+}
+
+/* line 306, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_instagram_square:before {
+  content: "\e0c8";
+}
+
+/* line 307, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_dribbble_square:before {
+  content: "\e0c9";
+}
+
+/* line 308, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_vimeo_square:before {
+  content: "\e0ca";
+}
+
+/* line 309, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_linkedin_square:before {
+  content: "\e0cb";
+}
+
+/* line 310, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_rss_square:before {
+  content: "\e0cc";
+}
+
+/* line 311, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_deviantart_square:before {
+  content: "\e0cd";
+}
+
+/* line 312, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_share_square:before {
+  content: "\e0ce";
+}
+
+/* line 313, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_myspace_square:before {
+  content: "\e0cf";
+}
+
+/* line 314, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_skype_square:before {
+  content: "\e0d0";
+}
+
+/* line 315, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_youtube_square:before {
+  content: "\e0d1";
+}
+
+/* line 316, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_picassa_square:before {
+  content: "\e0d2";
+}
+
+/* line 317, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_googledrive_square:before {
+  content: "\e0d3";
+}
+
+/* line 318, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_flickr_square:before {
+  content: "\e0d4";
+}
+
+/* line 319, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_blogger_square:before {
+  content: "\e0d5";
+}
+
+/* line 320, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_spotify_square:before {
+  content: "\e0d6";
+}
+
+/* line 321, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_delicious_square:before {
+  content: "\e0d7";
+}
+
+/* line 322, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_printer:before {
+  content: "\e103";
+}
+
+/* line 323, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_calulator:before {
+  content: "\e0ee";
+}
+
+/* line 324, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_building:before {
+  content: "\e0ef";
+}
+
+/* line 325, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_floppy:before {
+  content: "\e0e8";
+}
+
+/* line 326, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_drive:before {
+  content: "\e0ea";
+}
+
+/* line 327, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_search-2:before {
+  content: "\e101";
+}
+
+/* line 328, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_id:before {
+  content: "\e107";
+}
+
+/* line 329, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_id-2:before {
+  content: "\e108";
+}
+
+/* line 330, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_puzzle:before {
+  content: "\e102";
+}
+
+/* line 331, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_like:before {
+  content: "\e106";
+}
+
+/* line 332, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_dislike:before {
+  content: "\e0eb";
+}
+
+/* line 333, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_mug:before {
+  content: "\e105";
+}
+
+/* line 334, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_currency:before {
+  content: "\e0ed";
+}
+
+/* line 335, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_wallet:before {
+  content: "\e100";
+}
+
+/* line 336, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pens:before {
+  content: "\e104";
+}
+
+/* line 337, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_easel:before {
+  content: "\e0e9";
+}
+
+/* line 338, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_flowchart:before {
+  content: "\e109";
+}
+
+/* line 339, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_datareport:before {
+  content: "\e0ec";
+}
+
+/* line 340, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_briefcase:before {
+  content: "\e0fe";
+}
+
+/* line 341, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_shield:before {
+  content: "\e0f6";
+}
+
+/* line 342, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_percent:before {
+  content: "\e0fb";
+}
+
+/* line 343, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_globe:before {
+  content: "\e0e2";
+}
+
+/* line 344, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_globe-2:before {
+  content: "\e0e3";
+}
+
+/* line 345, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_target:before {
+  content: "\e0f5";
+}
+
+/* line 346, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_hourglass:before {
+  content: "\e0e1";
+}
+
+/* line 347, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_balance:before {
+  content: "\e0ff";
+}
+
+/* line 348, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_rook:before {
+  content: "\e0f8";
+}
+
+/* line 349, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_printer-alt:before {
+  content: "\e0fa";
+}
+
+/* line 350, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_calculator_alt:before {
+  content: "\e0e7";
+}
+
+/* line 351, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_building_alt:before {
+  content: "\e0fd";
+}
+
+/* line 352, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_floppy_alt:before {
+  content: "\e0e4";
+}
+
+/* line 353, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_drive_alt:before {
+  content: "\e0e5";
+}
+
+/* line 354, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_search_alt:before {
+  content: "\e0f7";
+}
+
+/* line 355, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_id_alt:before {
+  content: "\e0e0";
+}
+
+/* line 356, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_id-2_alt:before {
+  content: "\e0fc";
+}
+
+/* line 357, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_puzzle_alt:before {
+  content: "\e0f9";
+}
+
+/* line 358, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_like_alt:before {
+  content: "\e0dd";
+}
+
+/* line 359, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_dislike_alt:before {
+  content: "\e0f1";
+}
+
+/* line 360, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_mug_alt:before {
+  content: "\e0dc";
+}
+
+/* line 361, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_currency_alt:before {
+  content: "\e0f3";
+}
+
+/* line 362, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_wallet_alt:before {
+  content: "\e0d8";
+}
+
+/* line 363, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pens_alt:before {
+  content: "\e0db";
+}
+
+/* line 364, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_easel_alt:before {
+  content: "\e0f0";
+}
+
+/* line 365, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_flowchart_alt:before {
+  content: "\e0df";
+}
+
+/* line 366, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_datareport_alt:before {
+  content: "\e0f2";
+}
+
+/* line 367, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_briefcase_alt:before {
+  content: "\e0f4";
+}
+
+/* line 368, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_shield_alt:before {
+  content: "\e0d9";
+}
+
+/* line 369, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_percent_alt:before {
+  content: "\e0da";
+}
+
+/* line 370, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_globe_alt:before {
+  content: "\e0de";
+}
+
+/* line 371, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_clipboard:before {
+  content: "\e0e6";
+}
+/* line 1, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_body.css.sass */
+body {
+  font-family: "Raleway";
+  position: relative;
+  height: auto !important;
+}
+/* line 4, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#buck {
+  background: #3d3629;
+  color: #d6d68f;
+}
+/* line 8, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#buck p,
+#buck #knife {
+  margin-bottom: 30px;
+}
+/* line 12, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#buck #knife {
+  display: block;
+  width: 100%;
+}
+
+/* line 16, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#buck-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 214px;
+}
+
+/* line 21, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#buy {
+  text-align: center;
+}
+/* line 24, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#buy a,
+#buy input[type=submit],
+#buy button {
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 10px;
+  position: relative;
+  color: #d6d68f;
+  text-decoration: none;
+  z-index: 9998;
+  background: transparent;
+  border: none;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 39, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#buy a::after,
+#buy input[type=submit]::after,
+#buy button::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+  background: #d6d68f;
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 51, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#buy a:hover,
+#buy input[type=submit]:hover,
+#buy button:hover {
+  color: #3d3629;
+}
+/* line 54, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#buy a:hover::after,
+#buy input[type=submit]:hover::after,
+#buy button:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+/* line 59, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#buy a:last-child,
+#buy input[type=submit]:last-child,
+#buy button:last-child {
+  margin-bottom: 0;
+}
+/* line 62, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#buy span {
+  display: block;
+  margin-bottom: 30px;
+}
+
+/* line 66, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#or {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 71, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#or::before, #or::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 2px;
+  background: #d6d68f;
+  position: absolute;
+  top: calc(50% - 1px);
+}
+/* line 81, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#or::before {
+  right: calc(50% + 20px);
+}
+/* line 84, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+#or::after {
+  left: calc(50% + 20px);
+}
+
+/* line 87, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_buck.css.sass */
+.contact {
+  display: inline-block !important;
+  margin: 0 20px;
+}
+/* line 1, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_cms.css.sass */
+textarea {
+  width: 100%;
+  font-size: 18px;
+  color: black;
+  letter-spacing: 1px;
+}
+
+/* line 7, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_cms.css.sass */
+.choose_image {
+  margin: 0 auto;
+}
+
+/* line 10, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_cms.css.sass */
+.upload_form {
+  text-align: center;
+}
+/* line 1, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_eddie.css.sass */
+#eddie {
+  background: #1a1a1a;
+  color: #d6d68f;
+}
+/* line 1, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_footer.css.sass */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+/* line 7, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_footer.css.sass */
+footer p {
+  margin: 0;
+}
+/* line 2, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_galleries.css.sass */
+.gallery .row {
+  padding: 0;
+  margin: 0;
+}
+/* line 6, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_galleries.css.sass */
+.gallery .row .thumbnail {
+  list-style: none;
+  padding: 12px;
+}
+/* line 10, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_galleries.css.sass */
+.gallery .row div {
+  background: transparent;
+}
+/* line 13, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_galleries.css.sass */
+.gallery .row img {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+/* line 3, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_header.css.sass */
+header {
+  height: 500px;
+}
+/* line 6, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_header.css.sass */
+header .bcg {
+  background: url("/assets/footer_lodyas.png");
+}
+
+/* line 9, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_header.css.sass */
+.hsContainer {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 18, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_header.css.sass */
+.hsContent {
+  width: 100%;
+  margin: -150px auto 0 auto;
+  display: table-cell;
+  vertical-align: middle;
+  color: #ebebeb;
+  padding: 0 8%;
+  text-align: center;
+}
+/* line 28, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_header.css.sass */
+.hsContent *:not(img) {
+  width: 100%;
+}
+
+/* line 31, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_header.css.sass */
+.bcg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 39, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_header.css.sass */
+#header-logo {
+  position: relative;
+}
+/* line 42, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_header.css.sass */
+#header-logo *:not(span) {
+  position: absolute;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* line 47, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_header.css.sass */
+#header-logo img {
+  max-width: 100%;
+}
+/* line 50, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_header.css.sass */
+#header-logo h2 {
+  color: #d6d68f;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 90px;
+  letter-spacing: 3px;
+  text-shadow: 0 0 25px #000;
+}
+/* line 58, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_header.css.sass */
+#header-logo span {
+  font-size: 50%;
+  display: block;
+  padding-top: 30px;
+}
+/* line 1, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.eleganticon {
+  font-family: 'ElegantIcons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 12, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_up:before {
+  content: "\21";
+}
+
+/* line 13, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_down:before {
+  content: "\22";
+}
+
+/* line 14, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left:before {
+  content: "\23";
+}
+
+/* line 15, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_right:before {
+  content: "\24";
+}
+
+/* line 16, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left-up:before {
+  content: "\25";
+}
+
+/* line 17, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_right-up:before {
+  content: "\26";
+}
+
+/* line 18, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_right-down:before {
+  content: "\27";
+}
+
+/* line 19, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left-down:before {
+  content: "\28";
+}
+
+/* line 20, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow-up-down:before {
+  content: "\29";
+}
+
+/* line 21, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_up-down_alt:before {
+  content: "\2a";
+}
+
+/* line 22, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left-right_alt:before {
+  content: "\2b";
+}
+
+/* line 23, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left-right:before {
+  content: "\2c";
+}
+
+/* line 24, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_expand_alt2:before {
+  content: "\2d";
+}
+
+/* line 25, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_expand_alt:before {
+  content: "\2e";
+}
+
+/* line 26, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_condense:before {
+  content: "\2f";
+}
+
+/* line 27, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_expand:before {
+  content: "\30";
+}
+
+/* line 28, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_move:before {
+  content: "\31";
+}
+
+/* line 29, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-up:before {
+  content: "\32";
+}
+
+/* line 30, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-down:before {
+  content: "\33";
+}
+
+/* line 31, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-left:before {
+  content: "\34";
+}
+
+/* line 32, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-right:before {
+  content: "\35";
+}
+
+/* line 33, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2up:before {
+  content: "\36";
+}
+
+/* line 34, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2down:before {
+  content: "\37";
+}
+
+/* line 35, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2left:before {
+  content: "\38";
+}
+
+/* line 36, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2right:before {
+  content: "\39";
+}
+
+/* line 37, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-up_alt2:before {
+  content: "\3a";
+}
+
+/* line 38, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-down_alt2:before {
+  content: "\3b";
+}
+
+/* line 39, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-left_alt2:before {
+  content: "\3c";
+}
+
+/* line 40, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-right_alt2:before {
+  content: "\3d";
+}
+
+/* line 41, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2up_alt2:before {
+  content: "\3e";
+}
+
+/* line 42, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2down_alt2:before {
+  content: "\3f";
+}
+
+/* line 43, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2left_alt2:before {
+  content: "\40";
+}
+
+/* line 44, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2right_alt2:before {
+  content: "\41";
+}
+
+/* line 45, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-up:before {
+  content: "\42";
+}
+
+/* line 46, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-down:before {
+  content: "\43";
+}
+
+/* line 47, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-left:before {
+  content: "\44";
+}
+
+/* line 48, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-right:before {
+  content: "\45";
+}
+
+/* line 49, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-up_alt2:before {
+  content: "\46";
+}
+
+/* line 50, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-down_alt2:before {
+  content: "\47";
+}
+
+/* line 51, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-left_alt2:before {
+  content: "\48";
+}
+
+/* line 52, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-right_alt2:before {
+  content: "\49";
+}
+
+/* line 53, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_back:before {
+  content: "\4a";
+}
+
+/* line 54, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_minus-06:before {
+  content: "\4b";
+}
+
+/* line 55, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_plus:before {
+  content: "\4c";
+}
+
+/* line 56, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_close:before {
+  content: "\4d";
+}
+
+/* line 57, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_check:before {
+  content: "\4e";
+}
+
+/* line 58, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_minus_alt2:before {
+  content: "\4f";
+}
+
+/* line 59, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_plus_alt2:before {
+  content: "\50";
+}
+
+/* line 60, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_close_alt2:before {
+  content: "\51";
+}
+
+/* line 61, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_check_alt2:before {
+  content: "\52";
+}
+
+/* line 62, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_zoom-out_alt:before {
+  content: "\53";
+}
+
+/* line 63, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_zoom-in_alt:before {
+  content: "\54";
+}
+
+/* line 64, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_search:before {
+  content: "\55";
+}
+
+/* line 65, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_box-empty:before {
+  content: "\56";
+}
+
+/* line 66, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_box-selected:before {
+  content: "\57";
+}
+
+/* line 67, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_minus-box:before {
+  content: "\58";
+}
+
+/* line 68, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_plus-box:before {
+  content: "\59";
+}
+
+/* line 69, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_box-checked:before {
+  content: "\5a";
+}
+
+/* line 70, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_circle-empty:before {
+  content: "\5b";
+}
+
+/* line 71, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_circle-slelected:before {
+  content: "\5c";
+}
+
+/* line 72, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_stop_alt2:before {
+  content: "\5d";
+}
+
+/* line 73, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_stop:before {
+  content: "\5e";
+}
+
+/* line 74, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pause_alt2:before {
+  content: "\5f";
+}
+
+/* line 75, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pause:before {
+  content: "\60";
+}
+
+/* line 76, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_menu:before {
+  content: "\61";
+}
+
+/* line 77, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_menu-square_alt2:before {
+  content: "\62";
+}
+
+/* line 78, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_menu-circle_alt2:before {
+  content: "\63";
+}
+
+/* line 79, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_ul:before {
+  content: "\64";
+}
+
+/* line 80, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_ol:before {
+  content: "\65";
+}
+
+/* line 81, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_adjust-horiz:before {
+  content: "\66";
+}
+
+/* line 82, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_adjust-vert:before {
+  content: "\67";
+}
+
+/* line 83, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_document_alt:before {
+  content: "\68";
+}
+
+/* line 84, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_documents_alt:before {
+  content: "\69";
+}
+
+/* line 85, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pencil:before {
+  content: "\6a";
+}
+
+/* line 86, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pencil-edit_alt:before {
+  content: "\6b";
+}
+
+/* line 87, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pencil-edit:before {
+  content: "\6c";
+}
+
+/* line 88, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder-alt:before {
+  content: "\6d";
+}
+
+/* line 89, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder-open_alt:before {
+  content: "\6e";
+}
+
+/* line 90, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder-add_alt:before {
+  content: "\6f";
+}
+
+/* line 91, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_info_alt:before {
+  content: "\70";
+}
+
+/* line 92, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_error-oct_alt:before {
+  content: "\71";
+}
+
+/* line 93, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_error-circle_alt:before {
+  content: "\72";
+}
+
+/* line 94, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_error-triangle_alt:before {
+  content: "\73";
+}
+
+/* line 95, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_question_alt2:before {
+  content: "\74";
+}
+
+/* line 96, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_question:before {
+  content: "\75";
+}
+
+/* line 97, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_comment_alt:before {
+  content: "\76";
+}
+
+/* line 98, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_chat_alt:before {
+  content: "\77";
+}
+
+/* line 99, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_vol-mute_alt:before {
+  content: "\78";
+}
+
+/* line 100, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_volume-low_alt:before {
+  content: "\79";
+}
+
+/* line 101, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_volume-high_alt:before {
+  content: "\7a";
+}
+
+/* line 102, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_quotations:before {
+  content: "\7b";
+}
+
+/* line 103, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_quotations_alt2:before {
+  content: "\7c";
+}
+
+/* line 104, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_clock_alt:before {
+  content: "\7d";
+}
+
+/* line 105, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_lock_alt:before {
+  content: "\7e";
+}
+
+/* line 106, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_lock-open_alt:before {
+  content: "\e000";
+}
+
+/* line 107, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_key_alt:before {
+  content: "\e001";
+}
+
+/* line 108, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cloud_alt:before {
+  content: "\e002";
+}
+
+/* line 109, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cloud-upload_alt:before {
+  content: "\e003";
+}
+
+/* line 110, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cloud-download_alt:before {
+  content: "\e004";
+}
+
+/* line 111, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_image:before {
+  content: "\e005";
+}
+
+/* line 112, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_images:before {
+  content: "\e006";
+}
+
+/* line 113, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_lightbulb_alt:before {
+  content: "\e007";
+}
+
+/* line 114, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_gift_alt:before {
+  content: "\e008";
+}
+
+/* line 115, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_house_alt:before {
+  content: "\e009";
+}
+
+/* line 116, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_genius:before {
+  content: "\e00a";
+}
+
+/* line 117, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_mobile:before {
+  content: "\e00b";
+}
+
+/* line 118, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_tablet:before {
+  content: "\e00c";
+}
+
+/* line 119, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_laptop:before {
+  content: "\e00d";
+}
+
+/* line 120, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_desktop:before {
+  content: "\e00e";
+}
+
+/* line 121, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_camera_alt:before {
+  content: "\e00f";
+}
+
+/* line 122, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_mail_alt:before {
+  content: "\e010";
+}
+
+/* line 123, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cone_alt:before {
+  content: "\e011";
+}
+
+/* line 124, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_ribbon_alt:before {
+  content: "\e012";
+}
+
+/* line 125, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_bag_alt:before {
+  content: "\e013";
+}
+
+/* line 126, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_creditcard:before {
+  content: "\e014";
+}
+
+/* line 127, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cart_alt:before {
+  content: "\e015";
+}
+
+/* line 128, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_paperclip:before {
+  content: "\e016";
+}
+
+/* line 129, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_tag_alt:before {
+  content: "\e017";
+}
+
+/* line 130, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_tags_alt:before {
+  content: "\e018";
+}
+
+/* line 131, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_trash_alt:before {
+  content: "\e019";
+}
+
+/* line 132, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cursor_alt:before {
+  content: "\e01a";
+}
+
+/* line 133, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_mic_alt:before {
+  content: "\e01b";
+}
+
+/* line 134, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_compass_alt:before {
+  content: "\e01c";
+}
+
+/* line 135, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pin_alt:before {
+  content: "\e01d";
+}
+
+/* line 136, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pushpin_alt:before {
+  content: "\e01e";
+}
+
+/* line 137, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_map_alt:before {
+  content: "\e01f";
+}
+
+/* line 138, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_drawer_alt:before {
+  content: "\e020";
+}
+
+/* line 139, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_toolbox_alt:before {
+  content: "\e021";
+}
+
+/* line 140, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_book_alt:before {
+  content: "\e022";
+}
+
+/* line 141, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_calendar:before {
+  content: "\e023";
+}
+
+/* line 142, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_film:before {
+  content: "\e024";
+}
+
+/* line 143, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_table:before {
+  content: "\e025";
+}
+
+/* line 144, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_contacts_alt:before {
+  content: "\e026";
+}
+
+/* line 145, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_headphones:before {
+  content: "\e027";
+}
+
+/* line 146, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_lifesaver:before {
+  content: "\e028";
+}
+
+/* line 147, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_piechart:before {
+  content: "\e029";
+}
+
+/* line 148, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_refresh:before {
+  content: "\e02a";
+}
+
+/* line 149, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_link_alt:before {
+  content: "\e02b";
+}
+
+/* line 150, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_link:before {
+  content: "\e02c";
+}
+
+/* line 151, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_loading:before {
+  content: "\e02d";
+}
+
+/* line 152, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_blocked:before {
+  content: "\e02e";
+}
+
+/* line 153, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_archive_alt:before {
+  content: "\e02f";
+}
+
+/* line 154, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_heart_alt:before {
+  content: "\e030";
+}
+
+/* line 155, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_star_alt:before {
+  content: "\e031";
+}
+
+/* line 156, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_star-half_alt:before {
+  content: "\e032";
+}
+
+/* line 157, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_star:before {
+  content: "\e033";
+}
+
+/* line 158, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_star-half:before {
+  content: "\e034";
+}
+
+/* line 159, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_tools:before {
+  content: "\e035";
+}
+
+/* line 160, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_tool:before {
+  content: "\e036";
+}
+
+/* line 161, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cog:before {
+  content: "\e037";
+}
+
+/* line 162, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cogs:before {
+  content: "\e038";
+}
+
+/* line 163, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_up_alt:before {
+  content: "\e039";
+}
+
+/* line 164, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_down_alt:before {
+  content: "\e03a";
+}
+
+/* line 165, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left_alt:before {
+  content: "\e03b";
+}
+
+/* line 166, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_right_alt:before {
+  content: "\e03c";
+}
+
+/* line 167, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left-up_alt:before {
+  content: "\e03d";
+}
+
+/* line 168, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_right-up_alt:before {
+  content: "\e03e";
+}
+
+/* line 169, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_right-down_alt:before {
+  content: "\e03f";
+}
+
+/* line 170, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_left-down_alt:before {
+  content: "\e040";
+}
+
+/* line 171, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_condense_alt:before {
+  content: "\e041";
+}
+
+/* line 172, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_expand_alt3:before {
+  content: "\e042";
+}
+
+/* line 173, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot_up_alt:before {
+  content: "\e043";
+}
+
+/* line 174, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-down_alt:before {
+  content: "\e044";
+}
+
+/* line 175, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-left_alt:before {
+  content: "\e045";
+}
+
+/* line 176, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-right_alt:before {
+  content: "\e046";
+}
+
+/* line 177, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2up_alt:before {
+  content: "\e047";
+}
+
+/* line 178, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2dwnn_alt:before {
+  content: "\e048";
+}
+
+/* line 179, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2left_alt:before {
+  content: "\e049";
+}
+
+/* line 180, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_carrot-2right_alt:before {
+  content: "\e04a";
+}
+
+/* line 181, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-up_alt:before {
+  content: "\e04b";
+}
+
+/* line 182, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-down_alt:before {
+  content: "\e04c";
+}
+
+/* line 183, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-left_alt:before {
+  content: "\e04d";
+}
+
+/* line 184, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.arrow_triangle-right_alt:before {
+  content: "\e04e";
+}
+
+/* line 185, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_minus_alt:before {
+  content: "\e04f";
+}
+
+/* line 186, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_plus_alt:before {
+  content: "\e050";
+}
+
+/* line 187, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_close_alt:before {
+  content: "\e051";
+}
+
+/* line 188, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_check_alt:before {
+  content: "\e052";
+}
+
+/* line 189, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_zoom-out:before {
+  content: "\e053";
+}
+
+/* line 190, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_zoom-in:before {
+  content: "\e054";
+}
+
+/* line 191, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_stop_alt:before {
+  content: "\e055";
+}
+
+/* line 192, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_menu-square_alt:before {
+  content: "\e056";
+}
+
+/* line 193, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_menu-circle_alt:before {
+  content: "\e057";
+}
+
+/* line 194, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_document:before {
+  content: "\e058";
+}
+
+/* line 195, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_documents:before {
+  content: "\e059";
+}
+
+/* line 196, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pencil_alt:before {
+  content: "\e05a";
+}
+
+/* line 197, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder:before {
+  content: "\e05b";
+}
+
+/* line 198, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder-open:before {
+  content: "\e05c";
+}
+
+/* line 199, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder-add:before {
+  content: "\e05d";
+}
+
+/* line 200, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder_upload:before {
+  content: "\e05e";
+}
+
+/* line 201, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_folder_download:before {
+  content: "\e05f";
+}
+
+/* line 202, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_info:before {
+  content: "\e060";
+}
+
+/* line 203, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_error-circle:before {
+  content: "\e061";
+}
+
+/* line 204, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_error-oct:before {
+  content: "\e062";
+}
+
+/* line 205, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_error-triangle:before {
+  content: "\e063";
+}
+
+/* line 206, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_question_alt:before {
+  content: "\e064";
+}
+
+/* line 207, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_comment:before {
+  content: "\e065";
+}
+
+/* line 208, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_chat:before {
+  content: "\e066";
+}
+
+/* line 209, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_vol-mute:before {
+  content: "\e067";
+}
+
+/* line 210, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_volume-low:before {
+  content: "\e068";
+}
+
+/* line 211, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_volume-high:before {
+  content: "\e069";
+}
+
+/* line 212, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_quotations_alt:before {
+  content: "\e06a";
+}
+
+/* line 213, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_clock:before {
+  content: "\e06b";
+}
+
+/* line 214, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_lock:before {
+  content: "\e06c";
+}
+
+/* line 215, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_lock-open:before {
+  content: "\e06d";
+}
+
+/* line 216, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_key:before {
+  content: "\e06e";
+}
+
+/* line 217, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cloud:before {
+  content: "\e06f";
+}
+
+/* line 218, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cloud-upload:before {
+  content: "\e070";
+}
+
+/* line 219, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cloud-download:before {
+  content: "\e071";
+}
+
+/* line 220, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_lightbulb:before {
+  content: "\e072";
+}
+
+/* line 221, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_gift:before {
+  content: "\e073";
+}
+
+/* line 222, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_house:before {
+  content: "\e074";
+}
+
+/* line 223, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_camera:before {
+  content: "\e075";
+}
+
+/* line 224, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_mail:before {
+  content: "\e076";
+}
+
+/* line 225, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cone:before {
+  content: "\e077";
+}
+
+/* line 226, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_ribbon:before {
+  content: "\e078";
+}
+
+/* line 227, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_bag:before {
+  content: "\e079";
+}
+
+/* line 228, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cart:before {
+  content: "\e07a";
+}
+
+/* line 229, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_tag:before {
+  content: "\e07b";
+}
+
+/* line 230, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_tags:before {
+  content: "\e07c";
+}
+
+/* line 231, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_trash:before {
+  content: "\e07d";
+}
+
+/* line 232, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_cursor:before {
+  content: "\e07e";
+}
+
+/* line 233, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_mic:before {
+  content: "\e07f";
+}
+
+/* line 234, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_compass:before {
+  content: "\e080";
+}
+
+/* line 235, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pin:before {
+  content: "\e081";
+}
+
+/* line 236, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pushpin:before {
+  content: "\e082";
+}
+
+/* line 237, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_map:before {
+  content: "\e083";
+}
+
+/* line 238, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_drawer:before {
+  content: "\e084";
+}
+
+/* line 239, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_toolbox:before {
+  content: "\e085";
+}
+
+/* line 240, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_book:before {
+  content: "\e086";
+}
+
+/* line 241, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_contacts:before {
+  content: "\e087";
+}
+
+/* line 242, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_archive:before {
+  content: "\e088";
+}
+
+/* line 243, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_heart:before {
+  content: "\e089";
+}
+
+/* line 244, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_profile:before {
+  content: "\e08a";
+}
+
+/* line 245, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_group:before {
+  content: "\e08b";
+}
+
+/* line 246, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_grid-2x2:before {
+  content: "\e08c";
+}
+
+/* line 247, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_grid-3x3:before {
+  content: "\e08d";
+}
+
+/* line 248, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_music:before {
+  content: "\e08e";
+}
+
+/* line 249, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pause_alt:before {
+  content: "\e08f";
+}
+
+/* line 250, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_phone:before {
+  content: "\e090";
+}
+
+/* line 251, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_upload:before {
+  content: "\e091";
+}
+
+/* line 252, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_download:before {
+  content: "\e092";
+}
+
+/* line 253, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_facebook:before {
+  content: "\e093";
+}
+
+/* line 254, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_twitter:before {
+  content: "\e094";
+}
+
+/* line 255, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_pinterest:before {
+  content: "\e095";
+}
+
+/* line 256, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_googleplus:before {
+  content: "\e096";
+}
+
+/* line 257, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_tumblr:before {
+  content: "\e097";
+}
+
+/* line 258, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_tumbleupon:before {
+  content: "\e098";
+}
+
+/* line 259, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_wordpress:before {
+  content: "\e099";
+}
+
+/* line 260, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_instagram:before {
+  content: "\e09a";
+}
+
+/* line 261, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_dribbble:before {
+  content: "\e09b";
+}
+
+/* line 262, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_vimeo:before {
+  content: "\e09c";
+}
+
+/* line 263, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_linkedin:before {
+  content: "\e09d";
+}
+
+/* line 264, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_rss:before {
+  content: "\e09e";
+}
+
+/* line 265, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_deviantart:before {
+  content: "\e09f";
+}
+
+/* line 266, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_share:before {
+  content: "\e0a0";
+}
+
+/* line 267, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_myspace:before {
+  content: "\e0a1";
+}
+
+/* line 268, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_skype:before {
+  content: "\e0a2";
+}
+
+/* line 269, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_youtube:before {
+  content: "\e0a3";
+}
+
+/* line 270, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_picassa:before {
+  content: "\e0a4";
+}
+
+/* line 271, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_googledrive:before {
+  content: "\e0a5";
+}
+
+/* line 272, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_flickr:before {
+  content: "\e0a6";
+}
+
+/* line 273, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_blogger:before {
+  content: "\e0a7";
+}
+
+/* line 274, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_spotify:before {
+  content: "\e0a8";
+}
+
+/* line 275, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_delicious:before {
+  content: "\e0a9";
+}
+
+/* line 276, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_facebook_circle:before {
+  content: "\e0aa";
+}
+
+/* line 277, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_twitter_circle:before {
+  content: "\e0ab";
+}
+
+/* line 278, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_pinterest_circle:before {
+  content: "\e0ac";
+}
+
+/* line 279, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_googleplus_circle:before {
+  content: "\e0ad";
+}
+
+/* line 280, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_tumblr_circle:before {
+  content: "\e0ae";
+}
+
+/* line 281, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_stumbleupon_circle:before {
+  content: "\e0af";
+}
+
+/* line 282, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_wordpress_circle:before {
+  content: "\e0b0";
+}
+
+/* line 283, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_instagram_circle:before {
+  content: "\e0b1";
+}
+
+/* line 284, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_dribbble_circle:before {
+  content: "\e0b2";
+}
+
+/* line 285, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_vimeo_circle:before {
+  content: "\e0b3";
+}
+
+/* line 286, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_linkedin_circle:before {
+  content: "\e0b4";
+}
+
+/* line 287, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_rss_circle:before {
+  content: "\e0b5";
+}
+
+/* line 288, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_deviantart_circle:before {
+  content: "\e0b6";
+}
+
+/* line 289, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_share_circle:before {
+  content: "\e0b7";
+}
+
+/* line 290, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_myspace_circle:before {
+  content: "\e0b8";
+}
+
+/* line 291, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_skype_circle:before {
+  content: "\e0b9";
+}
+
+/* line 292, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_youtube_circle:before {
+  content: "\e0ba";
+}
+
+/* line 293, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_picassa_circle:before {
+  content: "\e0bb";
+}
+
+/* line 294, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_googledrive_alt2:before {
+  content: "\e0bc";
+}
+
+/* line 295, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_flickr_circle:before {
+  content: "\e0bd";
+}
+
+/* line 296, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_blogger_circle:before {
+  content: "\e0be";
+}
+
+/* line 297, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_spotify_circle:before {
+  content: "\e0bf";
+}
+
+/* line 298, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_delicious_circle:before {
+  content: "\e0c0";
+}
+
+/* line 299, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_facebook_square:before {
+  content: "\e0c1";
+}
+
+/* line 300, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_twitter_square:before {
+  content: "\e0c2";
+}
+
+/* line 301, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_pinterest_square:before {
+  content: "\e0c3";
+}
+
+/* line 302, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_googleplus_square:before {
+  content: "\e0c4";
+}
+
+/* line 303, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_tumblr_square:before {
+  content: "\e0c5";
+}
+
+/* line 304, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_stumbleupon_square:before {
+  content: "\e0c6";
+}
+
+/* line 305, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_wordpress_square:before {
+  content: "\e0c7";
+}
+
+/* line 306, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_instagram_square:before {
+  content: "\e0c8";
+}
+
+/* line 307, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_dribbble_square:before {
+  content: "\e0c9";
+}
+
+/* line 308, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_vimeo_square:before {
+  content: "\e0ca";
+}
+
+/* line 309, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_linkedin_square:before {
+  content: "\e0cb";
+}
+
+/* line 310, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_rss_square:before {
+  content: "\e0cc";
+}
+
+/* line 311, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_deviantart_square:before {
+  content: "\e0cd";
+}
+
+/* line 312, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_share_square:before {
+  content: "\e0ce";
+}
+
+/* line 313, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_myspace_square:before {
+  content: "\e0cf";
+}
+
+/* line 314, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_skype_square:before {
+  content: "\e0d0";
+}
+
+/* line 315, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_youtube_square:before {
+  content: "\e0d1";
+}
+
+/* line 316, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_picassa_square:before {
+  content: "\e0d2";
+}
+
+/* line 317, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_googledrive_square:before {
+  content: "\e0d3";
+}
+
+/* line 318, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_flickr_square:before {
+  content: "\e0d4";
+}
+
+/* line 319, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_blogger_square:before {
+  content: "\e0d5";
+}
+
+/* line 320, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_spotify_square:before {
+  content: "\e0d6";
+}
+
+/* line 321, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.social_delicious_square:before {
+  content: "\e0d7";
+}
+
+/* line 322, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_printer:before {
+  content: "\e103";
+}
+
+/* line 323, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_calulator:before {
+  content: "\e0ee";
+}
+
+/* line 324, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_building:before {
+  content: "\e0ef";
+}
+
+/* line 325, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_floppy:before {
+  content: "\e0e8";
+}
+
+/* line 326, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_drive:before {
+  content: "\e0ea";
+}
+
+/* line 327, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_search-2:before {
+  content: "\e101";
+}
+
+/* line 328, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_id:before {
+  content: "\e107";
+}
+
+/* line 329, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_id-2:before {
+  content: "\e108";
+}
+
+/* line 330, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_puzzle:before {
+  content: "\e102";
+}
+
+/* line 331, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_like:before {
+  content: "\e106";
+}
+
+/* line 332, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_dislike:before {
+  content: "\e0eb";
+}
+
+/* line 333, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_mug:before {
+  content: "\e105";
+}
+
+/* line 334, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_currency:before {
+  content: "\e0ed";
+}
+
+/* line 335, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_wallet:before {
+  content: "\e100";
+}
+
+/* line 336, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pens:before {
+  content: "\e104";
+}
+
+/* line 337, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_easel:before {
+  content: "\e0e9";
+}
+
+/* line 338, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_flowchart:before {
+  content: "\e109";
+}
+
+/* line 339, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_datareport:before {
+  content: "\e0ec";
+}
+
+/* line 340, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_briefcase:before {
+  content: "\e0fe";
+}
+
+/* line 341, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_shield:before {
+  content: "\e0f6";
+}
+
+/* line 342, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_percent:before {
+  content: "\e0fb";
+}
+
+/* line 343, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_globe:before {
+  content: "\e0e2";
+}
+
+/* line 344, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_globe-2:before {
+  content: "\e0e3";
+}
+
+/* line 345, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_target:before {
+  content: "\e0f5";
+}
+
+/* line 346, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_hourglass:before {
+  content: "\e0e1";
+}
+
+/* line 347, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_balance:before {
+  content: "\e0ff";
+}
+
+/* line 348, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_rook:before {
+  content: "\e0f8";
+}
+
+/* line 349, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_printer-alt:before {
+  content: "\e0fa";
+}
+
+/* line 350, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_calculator_alt:before {
+  content: "\e0e7";
+}
+
+/* line 351, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_building_alt:before {
+  content: "\e0fd";
+}
+
+/* line 352, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_floppy_alt:before {
+  content: "\e0e4";
+}
+
+/* line 353, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_drive_alt:before {
+  content: "\e0e5";
+}
+
+/* line 354, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_search_alt:before {
+  content: "\e0f7";
+}
+
+/* line 355, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_id_alt:before {
+  content: "\e0e0";
+}
+
+/* line 356, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_id-2_alt:before {
+  content: "\e0fc";
+}
+
+/* line 357, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_puzzle_alt:before {
+  content: "\e0f9";
+}
+
+/* line 358, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_like_alt:before {
+  content: "\e0dd";
+}
+
+/* line 359, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_dislike_alt:before {
+  content: "\e0f1";
+}
+
+/* line 360, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_mug_alt:before {
+  content: "\e0dc";
+}
+
+/* line 361, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_currency_alt:before {
+  content: "\e0f3";
+}
+
+/* line 362, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_wallet_alt:before {
+  content: "\e0d8";
+}
+
+/* line 363, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_pens_alt:before {
+  content: "\e0db";
+}
+
+/* line 364, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_easel_alt:before {
+  content: "\e0f0";
+}
+
+/* line 365, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_flowchart_alt:before {
+  content: "\e0df";
+}
+
+/* line 366, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_datareport_alt:before {
+  content: "\e0f2";
+}
+
+/* line 367, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_briefcase_alt:before {
+  content: "\e0f4";
+}
+
+/* line 368, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_shield_alt:before {
+  content: "\e0d9";
+}
+
+/* line 369, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_percent_alt:before {
+  content: "\e0da";
+}
+
+/* line 370, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_globe_alt:before {
+  content: "\e0de";
+}
+
+/* line 371, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/eleganticons.css.scss */
+.icon_clipboard:before {
+  content: "\e0e6";
+}
+
+/* line 5, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login {
+  background: #3d3629;
+  color: #d6d68f;
+}
+/* line 9, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login .col-md-10 {
+  margin: 0 auto;
+  float: none;
+}
+/* line 13, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login .page-header {
+  margin-bottom: 40px;
+}
+/* line 16, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login .row {
+  margin-bottom: 25px;
+}
+/* line 19, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login .row:last-child {
+  margin-bottom: 0;
+}
+/* line 22, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login .row:last-child .col-xs-4 {
+  padding-top: 6px;
+}
+/* line 25, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login p,
+#login label {
+  text-transform: uppercase;
+  line-height: 34px;
+  font-weight: normal;
+}
+/* line 31, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login input[type=checkbox] {
+  display: none;
+}
+/* line 34, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login input[type=checkbox]:checked + label span::before {
+  content: "W";
+}
+/* line 37, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login input[type=checkbox] + label span {
+  margin-right: 10px;
+}
+/* line 40, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login input[type=checkbox] + label span::before {
+  content: "V";
+}
+/* line 43, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login button {
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 10px;
+  position: relative;
+  float: right;
+  color: #d6d68f;
+  text-decoration: none;
+  text-transform: uppercase;
+  z-index: 9998;
+  background: transparent;
+  border: none;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 58, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login button::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+  background: #d6d68f;
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 70, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login button:hover {
+  color: #3d3629;
+}
+/* line 73, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login button:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+/* line 78, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_login.css.sass */
+#login button:last-child {
+  margin-bottom: 0;
+}
+/* line 1, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_matt.css.sass */
+.circimg {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid #d6d68f;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* line 11, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_matt.css.sass */
+.circimg img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px #222;
+}
+
+/* line 16, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_matt.css.sass */
+#matt {
+  background: #2c3d29;
+  color: #d6d68f;
+}
+/* line 5, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+nav {
+  margin-bottom: 0 !important;
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+  font-weight: 700;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.75s ease;
+  -o-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+}
+/* line 15, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+nav.affix {
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(34, 34, 34, 0.9) !important;
+}
+/* line 21, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+nav ul {
+  min-height: 70px;
+}
+/* line 24, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+nav ul * {
+  height: 70px;
+}
+/* line 27, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+nav li {
+  margin: 0 10px;
+}
+@media (min-width: 950px) {
+  /* line 30, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+  nav li.active a::after {
+    width: 100%;
+  }
+}
+@media (max-width: 949px) {
+  /* line 30, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+  nav li.active a::after {
+    height: 75%;
+  }
+}
+/* line 38, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+nav .navbar-brand {
+  position: relative;
+}
+/* line 41, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+nav .navbar-brand img,
+nav .navbar-brand span {
+  display: inline-block;
+}
+/* line 45, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+nav .navbar-brand img {
+  max-height: 50px;
+  left: 15;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* line 51, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+nav .navbar-brand span {
+  position: relative;
+  left: 56px;
+}
+/* line 55, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+nav a {
+  display: table-cell !important;
+  vertical-align: middle;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  color: #d6d68f !important;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 67, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+nav a:hover {
+  color: #e7e7e7 !important;
+}
+/* line 71, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+nav .navbar-right a::after {
+  content: "";
+  position: absolute;
+  background: #6a7a52;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+@media (min-width: 950px) {
+  /* line 71, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+  nav .navbar-right a::after {
+    width: 0;
+    height: 5px;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 949px) {
+  /* line 71, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+  nav .navbar-right a::after {
+    width: 5px;
+    height: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+@media (min-width: 950px) {
+  /* line 94, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+  nav .navbar-right a:hover::after {
+    width: 100%;
+  }
+}
+@media (max-width: 949px) {
+  /* line 94, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_nav.css.sass */
+  nav .navbar-right a:hover::after {
+    height: 75%;
+  }
+}
+/* line 1, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_photos.css.sass */
+#photos {
+  background: #2c3d29;
+}
+/* line 1, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_sections.css.sass */
+section {
+  padding: 50px 0;
+}
+/* line 4, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_sections.css.sass */
+section h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+/* line 13, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_sections.css.sass */
+section .col {
+  float: none !important;
+  margin: 0 auto;
+}
+/* line 17, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_sections.css.sass */
+section p,
+section a,
+section span,
+section button,
+section label {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+/* line 1, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_videos.css.sass */
+#videos {
+  background: #1a1a1a;
+}
+/* line 4, /home/iqover9000/Documents/rails/mwg/app/assets/stylesheets/custom/partials/_videos.css.sass */
+#videos .modal iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+  outline: none;
+}

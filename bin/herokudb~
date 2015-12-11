@@ -1,0 +1,34 @@
+#!/bin/bash
+function pull {
+  heroku pg:backups capture
+  curl -o latest.dump `heroku pg:backups public-url`
+  pg_restore --verbose --clean --no-acl --no-owner -h localhost -U user -d psa_development latest.dump
+  #heroku pg:pull DATABASE psa_development --app water-psa
+}
+
+function push {
+  heroku pg:reset DATABASE
+  heroku pg:push psa_development DATABASE --app h2whoa
+  #echo "PARKER WHY ARE YOU TRYING TO USE THE PUSH FUNCTION!!!!????? THIS COULD LOSE DATA!!!!!!!!!!!! DON'T PUSH DATA TO THE SERVER, ONLY PULL IT. IF YOU NEED TO MAKE EDITS TO DATA, MAKE THE EDITS ON THE SERVER!!!!"
+}
+
+function help {
+  echo "commands are heroku dbpush or herokudb pull. BE CAREFUL YOU DON'T LOST DATA!!!!"
+}
+
+ if [ $1 ]
+ then
+   case "$1" in
+     pull)
+      pull
+     ;;
+     push)
+      push
+     ;;
+     *)
+        help
+     ;;
+    esac
+ else
+  help
+ fi

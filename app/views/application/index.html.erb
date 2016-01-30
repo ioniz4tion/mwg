@@ -1,6 +1,6 @@
 <%
 meta title: "Home - Matt Would Go",
-     description: "This is the home page."
+     description: "Welcome to Matt Would Go, the official website of the MattWouldGo foundation. This website is dedicated to preserving the legacy of Navy SEAL Matt Leathers."
 %>
 
 <section id="matt">
@@ -8,7 +8,7 @@ meta title: "Home - Matt Would Go",
   <div class="col col-md-10">
 
     <div class="circimg">
-      <%= image_tag @homeImage[0].image %>
+      <div style="background-image: url(<%= @homeImage[0].image %>)"></div>
     </div>
 
     <%= cms_upload(@homeImage[0], :image, "Upload New Image") %>
@@ -31,7 +31,7 @@ meta title: "Home - Matt Would Go",
   <div class="col col-md-10">
 
     <div class="circimg">
-      <%= image_tag @homeImage[1].image %>
+      <div style="background-image: url(<%= @homeImage[1].image %>)"></div>
     </div>
     
     <%= cms_upload(@homeImage[1], :image, "Upload New Image") %>

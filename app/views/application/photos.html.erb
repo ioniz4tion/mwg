@@ -1,6 +1,6 @@
 <%
 meta title: "Photos - Matt Would Go",
-     description: "This is the photos page."
+     description: "Welcome to the Photos page of Matt Would Go. Here you can view photos of Matt Leathers."
 %>
 
 <section id="photos" class="gallery">
@@ -34,7 +34,9 @@ meta title: "Photos - Matt Would Go",
 
 		<!-- </ul> -->
 
-		<%= cms_upload_url(:image, :image, "Upload New Image", "/photos/add") %>
+		<div class="row">
+			<%= cms_upload_url(:image, :image, "Upload New Image", "/photos/add") %>
+		</div>
 
 	</div>
 

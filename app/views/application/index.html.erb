@@ -29,12 +29,6 @@ meta title: "Home - Matt Would Go",
 <section id="eddie">
 
   <div class="col col-md-10">
-
-    <div class="circimg">
-      <div style="background-image: url(<%= @homeImage[1].image %>)"></div>
-    </div>
-    
-    <%= cms_upload(@homeImage[1], :image, "Upload New Image") %>
   
     <h1>Eddie's Story</h1>
 
@@ -56,12 +50,21 @@ meta title: "Home - Matt Would Go",
 
     <%= cms_upload(@homeImage[2], :image, "Upload New Image") %>
 
-    <h1>Support the Foundation</h1>
+    <h1>Support Matt Would Go</h1>
 
     <div class="col col-md-10">
       <p>
         <%= bip @homeText[2], :text, :textarea %>
       </p>
+
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="TFR8ZJR7VEUM8">
+        <!-- <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> -->
+        <button type="submit" name="submit">Buy a knife now!</button>
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+      
       <%= image_tag @homeImage[3].image, id: "knife" %>
 
       <%= cms_upload(@homeImage[3], :image, "Upload New Image") %>
@@ -69,25 +72,14 @@ meta title: "Home - Matt Would Go",
 
     <div class="col col-md-8" id="buy">
 
-      <a href="http://www.buckknives.com/product/matt-would-go/0245MCSMWG-B/" target="_blank">Buy from Buck Knives</a>
-
-      <span id="or">or</span>
-
-      <span>Buy directly from Tim and Linda Leathers</span>
-      <span class="contact"><%= bip @homeText[3], :text %></span>
-      <span class="contact"><%= bip @homeText[4], :text %></span>
-
-      <span id="or">or</span>
-
-      <!-- <a href="" target="_blank">Donate to the foundation</a> -->
-
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+     <!--  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="27M2VV4GRXSK4">
         <button type="submit" name="submit">Donate to the foundation</button>
-        <!-- <input type="button" name="submit" value="Donate to the foundation"> -->
+        <!-- <input type="button" name="submit" value="Donate to the foundation"> 
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-      </form>
+      </form> -->
+
 
     </div>
 
